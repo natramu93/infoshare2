@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="pkge2.Driver">
+        <methods>
+          <include name="Navigate_to_S1_Earn_Achievement"/>
+          <include name="Authenticate_as_Administrator_Confirm_S2"/>
+          <include name="Rejecting_S2_as_admin"/>
+          <include name="Sequentially_Disable_all_BadgeOS_Plugins"/>
+          <include name="Authenticate_as_User_Confirm_S1_S2_S3_earned_in_Student_Profile_on_Progress_Map"/>
+          <include name="Navigate_to_S2_Submit_Achievement"/>
+          <include name="init"/>
+          <include name="Navigate_to_S3_Submit_Achievement"/>
+          <include name="Confirm_Interactive_Progress_Map_Display_for_New_User"/>
+          <include name="initialize"/>
+          <include name="close"/>
+          <include name="Register_New_User_Account"/>
+          <include name="Sequentially_Enable_Plugins"/>
+        </methods>
+      </class> <!-- pkge2.Driver -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

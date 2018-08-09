@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+    <line>
+      <![CDATA[STEP5]]>
+    </line>
+    <line>
+      <![CDATA[STEP6]]>
+    </line>
+    <line>
+      <![CDATA[STEP7]]>
+    </line>
+    <line>
+      <![CDATA[STEP8]]>
+    </line>
+    <line>
+      <![CDATA[STEP9]]>
+    </line>
+    <line>
+      <![CDATA[STEP10]]>
+    </line>
+    <line>
+      <![CDATA[STEP11]]>
+    </line>
+    <line>
+      <![CDATA[STEP12]]>
+    </line>
+  </reporter-output>
+  <suite name="Infoshare project" duration-ms="61255" started-at="2017-02-16T07:21:49Z" finished-at="2017-02-16T07:22:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="61255" started-at="2017-02-16T07:21:49Z" finished-at="2017-02-16T07:22:51Z">
+      <class name="pkge3.Driver">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:pkge3.Driver@735b5592]" name="initialize" is-config="true" duration-ms="3419" started-at="2017-02-16T12:51:49Z" finished-at="2017-02-16T12:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="init()[pri:0, instance:pkge3.Driver@735b5592]" name="init" is-config="true" duration-ms="9410" started-at="2017-02-16T12:51:53Z" finished-at="2017-02-16T12:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="Achievement_Creation_as_Admin()[pri:1, instance:pkge3.Driver@735b5592]" name="Achievement_Creation_as_Admin" duration-ms="24984" started-at="2017-02-16T12:52:02Z" finished-at="2017-02-16T12:52:27Z">
+          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
+            <full-stacktrace>
+              <![CDATA[[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1690)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+            <line>
+              <![CDATA[STEP5]]>
+            </line>
+            <line>
+              <![CDATA[STEP6]]>
+            </line>
+            <line>
+              <![CDATA[STEP7]]>
+            </line>
+            <line>
+              <![CDATA[STEP8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Achievement_Creation_as_Admin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:pkge3.Driver@735b5592]" name="close" is-config="true" duration-ms="220" started-at="2017-02-16T12:52:27Z" finished-at="2017-02-16T12:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="init()[pri:0, instance:pkge3.Driver@735b5592]" name="init" is-config="true" duration-ms="8205" started-at="2017-02-16T12:52:27Z" finished-at="2017-02-16T12:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="Register_New_User_Account()[pri:2, instance:pkge3.Driver@735b5592]" name="Register_New_User_Account" duration-ms="14782" started-at="2017-02-16T12:52:36Z" finished-at="2017-02-16T12:52:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP9]]>
+            </line>
+            <line>
+              <![CDATA[STEP10]]>
+            </line>
+            <line>
+              <![CDATA[STEP11]]>
+            </line>
+            <line>
+              <![CDATA[STEP12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_New_User_Account -->
+        <test-method status="PASS" signature="close()[pri:0, instance:pkge3.Driver@735b5592]" name="close" is-config="true" duration-ms="219" started-at="2017-02-16T12:52:50Z" finished-at="2017-02-16T12:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pkge3.Driver -->
+    </test> <!-- Test -->
+  </suite> <!-- Infoshare project -->
+</testng-results>
